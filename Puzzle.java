@@ -2,6 +2,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class Puzzle {
+    // https://www.dragonfjord.com/product/a-puzzle-a-day/
     /* private static String BOARD_STRING = """
 XXXXXXXXX
 X      XX
@@ -18,6 +19,7 @@ XXXXXXXXX
  O O OOO   O  OOO O   O     OOO OOO
               O   OOO
     """; */
+    // https://en.wikipedia.org/wiki/Pentomino 6x10 -> 9356 solutions
     private static String BOARD_STRING = """
 XXXXXXXXXXXX
 X          X
